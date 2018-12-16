@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="kursivee.com.lists.MainActivity">
+    <item android:id="@+id/action_linear_horizontal"
+          android:title="@string/linear_horizontal"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_linear_vertical"
+          android:title="@string/linear_vertical"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_grid_staggered"
+          android:title="@string/grid_staggered"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_grid"
+          android:title="@string/grid"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>

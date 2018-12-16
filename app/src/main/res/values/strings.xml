@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lists</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="linear_vertical">Linear Vertical</string>
+    <string name="linear_horizontal">Linear Horizontal</string>
+    <string name="grid_staggered">Grid Staggered</string>
+    <string name="grid">Grid</string>
+</resources>
