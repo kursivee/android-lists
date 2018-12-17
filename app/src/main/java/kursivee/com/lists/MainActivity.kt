@@ -7,6 +7,7 @@ import android.support.v7.app.AlertDialog
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import kotlinx.android.synthetic.main.activity_main.*
 import kursivee.com.lists.dummy.DummyContent
 import kursivee.com.lists.grid.normal.GridItemFragment
 import kursivee.com.lists.grid.stag.StagGridItemFragment
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity(), ItemFragment.OnListFragmentInteraction
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(findViewById(R.id.toolbar))
+        setSupportActionBar(toolbar)
         onVerticalButtonClick()
     }
 
